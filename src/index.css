@@ -1,5 +1,6 @@
 body{
-  background: #483876;
+  background: #f8f8fb;
   color: aliceblue;
   margin: 0;padding: 0;
+  box-sizing: border-box;
 }
