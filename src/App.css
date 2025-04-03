@@ -55,9 +55,14 @@ nav button{
   left: 10px !important; 
 }
 
-
 .slick-next {
   right: 10px !important; 
+}
+.dark {
+  background: #121212;
+}
+.dark nav {
+  background: #78898e98;
 }
 
 

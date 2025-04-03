@@ -16,7 +16,9 @@ function Header() {
     <option value="kolkata">Kolkata</option>
     <option value="hyderabad">Hyderabad</option>
 </select>
-<button><img src={Darkmode}height="20"></img> Dark Mode</button>
+<button onClick={()=>{
+    document.body.classList.toggle("dark");
+}}><img src={Darkmode}height="20" ></img> Dark Mode</button>
  <div className='login'>sign in</div>
  <img src={Hamburger}height="30"></img>
    </nav>
