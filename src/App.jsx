@@ -1,4 +1,5 @@
 import './App.css'
+import Carousel from './Carousel.jsx'
 import Header from "./Header.jsx"
 function Atlas() {
 
@@ -6,6 +7,7 @@ function Atlas() {
   
    <>
    <Header/>
+   <Carousel/>
    </>
   
   )
