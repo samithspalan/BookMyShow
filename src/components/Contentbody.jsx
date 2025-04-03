@@ -81,6 +81,10 @@ const Contentbody = () => {
         <img className="poster" src={bb} alt="Movie Poster 6" />
         
                   </div>  
+                  <div className="poster-container">
+        <img className="poster" src={jj} alt="Movie Poster 6" />
+        
+                  </div>  
                   
                   
       

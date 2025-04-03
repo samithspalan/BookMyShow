@@ -1,15 +1,13 @@
 import './App.css'
-import Nav from "./components/Nav"
-import Footer from "./components/Footer"
-import Body from "./components/Body"
+import Header from "./Header.jsx"
 function Atlas() {
 
   return (
-    <>
-     <Nav/>
-     <Body/>
-     <Footer/>
-    </>
+  
+   <>
+   <Header/>
+   </>
+  
   )
 }
 
