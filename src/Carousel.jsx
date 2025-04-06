@@ -19,19 +19,19 @@ function Carousel() {
   return (
     <Slider {...settings}>
       <div className="slide"> 
-        <img src={pushpa} alt="Pushpa" style={{width:"100%",height:"60vh"}} />
+        <img src={pushpa} alt="Pushpa" style={{width:"100%",height:"50vh"}} />
       </div>
       <div className="slide"> 
-        <img src={avenger} alt="Avengers" style={{width:"100%",height:"60vh"}}/>
+        <img src={avenger} alt="Avengers" style={{width:"100%",height:"50vh"}}/>
       </div>
       <div className="slide"> 
-        <img src={s2} alt="S2" style={{width:"100%",height:"60vh"}}/>
+        <img src={s2} alt="S2" style={{width:"100%",height:"50vh"}}/>
       </div>
       <div className="slide"> 
-        <img src={robinhood} alt="Robinhood"style={{width:"100%",height:"60vh"}} />
+        <img src={robinhood} alt="Robinhood"style={{width:"100%",height:"50vh"}} />
       </div>
       <div className="slide"> 
-        <img src={open} alt="Oppenheimer" style={{width:"100%",height:"60vh"}}/>
+        <img src={open} alt="Oppenheimer" style={{width:"100%",height:"50vh"}}/>
       </div>
     </Slider>  
   );

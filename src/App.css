@@ -60,9 +60,10 @@ nav button{
 }
 .dark {
   background: #121212;
+  color:white;
 }
 .dark nav {
-  background: #78898e98;
+  background: #e95660;
 }
 
 

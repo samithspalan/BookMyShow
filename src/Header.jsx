@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "./assets/logo.svg"
 import "./App.css"
 import Hamburger from "./assets/hamburger.png"
 import Darkmode from "./assets/Darkmode.png"
 function Header() {
+  const[dark,setdark]=useState(false);
   return (
     <nav>
     <img src={logo} height="50"></img>
@@ -16,9 +17,10 @@ function Header() {
     <option value="kolkata">Kolkata</option>
     <option value="hyderabad">Hyderabad</option>
 </select>
-<button onClick={()=>{
+<button  className="btn" onClick={()=>{
     document.body.classList.toggle("dark");
-}}><img src={Darkmode}height="20" ></img> Dark Mode</button>
+   setdark(!dark);
+}}><img src={Darkmode}height="20" ></img>{setdark?"dark":"light"}</button>
  <div className='login'>sign in</div>
  <img src={Hamburger}height="30"></img>
    </nav>
